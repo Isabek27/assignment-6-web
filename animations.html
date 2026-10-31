@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations - Student jQuery Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student jQuery Practice</h1>
+        <p>Assignment 6 - Part 4. Animations</p>
+        <nav>
+            <a href="index.html">Basics</a>
+            <a href="effects.html">Effects</a>
+            <a href="dom.html">DOM</a>
+            <a href="animations.html" class="active" aria-current="page">Animations</a>
+            <a href="project.html">Mini Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <p>Use Reset All before repeating Task 8 or Task 10.</p>
+        <button type="button" id="resetBtn">Reset All</button>
+
+        <section class="card">
+            <h2>Task 8. Basic Animation</h2>
+            <p>The square moves right and becomes larger.</p>
+            <button type="button" id="basicBtn">Start Basic Animation</button>
+            <div class="animation-area">
+                <div id="basicBox" class="box"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Task 9. Sequential Animations</h2>
+            <p>Move right, move down, shrink, then return to the original position and size.</p>
+            <button type="button" id="sequenceBtn">Start Sequence</button>
+            <div class="animation-area">
+                <div id="sequenceBox" class="box"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Task 10. Combined Animation</h2>
+            <p>Movement, size, and opacity change together.</p>
+            <button type="button" id="combinedBtn">Start Combined Animation</button>
+            <div class="animation-area">
+                <div id="combinedBox" class="box"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Student: Batyrbek Isabek | Group: SE-2524</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

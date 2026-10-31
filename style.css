@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    color: #222;
+}
+
+header, main, footer {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+nav {
+    padding: 10px;
+    background-color: #ddd;
+}
+
+nav a {
+    display: inline-block;
+    margin: 4px 12px 4px 0;
+    color: #222;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 16px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+button {
+    margin: 4px 4px 4px 0;
+    padding: 8px 12px;
+    border: 1px solid #999;
+    background-color: #eee;
+    color: #222;
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+button:focus-visible, a:focus-visible, input:focus-visible {
+    outline: 2px solid #285f91;
+    outline-offset: 2px;
+}
+
+.sample-image {
+    display: block;
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    margin: 12px 0;
+    border: 1px solid #aaa;
+}
+
+#slidePanel, .accordion-content {
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+}
+
+#slidePanel {
+    margin-top: 12px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input {
+    width: 300px;
+    max-width: 100%;
+    padding: 8px;
+    border: 1px solid #999;
+    font: inherit;
+}
+
+#nameOutput, #emailOutput {
+    overflow-wrap: anywhere;
+}
+
+.animation-area {
+    height: 200px;
+    margin-top: 12px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+
+.box {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    background-color: steelblue;
+}
+
+#sequenceBox {
+    background-color: coral;
+}
+
+#combinedBox {
+    background-color: seagreen;
+}
+
+.accordion-button {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    text-align: left;
+}
+
+.accordion-content {
+    display: none;
+}
+
+footer {
+    color: #555;
+}

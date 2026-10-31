@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM - Student jQuery Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student jQuery Practice</h1>
+        <p>Assignment 6 - Part 3. DOM Manipulation</p>
+        <nav>
+            <a href="index.html">Basics</a>
+            <a href="effects.html">Effects</a>
+            <a href="dom.html" class="active" aria-current="page">DOM</a>
+            <a href="animations.html">Animations</a>
+            <a href="project.html">Mini Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Task 5. Add and Remove Elements</h2>
+            <ul id="studyList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <button type="button" id="appendBtn">Add Item to End</button>
+            <button type="button" id="prependBtn">Add Item to Start</button>
+            <button type="button" id="removeBtn">Remove Last Item</button>
+        </section>
+
+        <section class="card">
+            <h2>Task 6. Modifying Attributes</h2>
+            <img id="changeImage" class="sample-image" src="images/image1.svg" alt="Study time illustration" width="300" height="180">
+            <button type="button" id="imageBtn">Change Image</button>
+
+            <p><a id="pageLink" href="index.html">Go to Basics</a></p>
+            <button type="button" id="linkBtn">Change Link to Effects</button>
+        </section>
+
+        <section class="card">
+            <h2>Task 7. Form Interaction</h2>
+            <form id="studentForm">
+                <label for="nameInput">Name</label>
+                <input id="nameInput" type="text" name="name" autocomplete="name" placeholder="Enter your name">
+
+                <label for="emailInput">Email</label>
+                <input id="emailInput" type="email" name="email" autocomplete="email" placeholder="Enter your email">
+            </form>
+
+            <h3>Live preview</h3>
+            <p>Name: <span id="nameOutput"></span></p>
+            <p>Email: <span id="emailOutput"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Student: Batyrbek Isabek | Group: SE-2524</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

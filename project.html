@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - Student jQuery Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Student jQuery Practice</h1>
+        <p>Assignment 6 - Part 5. Mini Project</p>
+        <nav>
+            <a href="index.html">Basics</a>
+            <a href="effects.html">Effects</a>
+            <a href="dom.html">DOM</a>
+            <a href="animations.html">Animations</a>
+            <a href="project.html" class="active" aria-current="page">Mini Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Task 11. Accordion Menu</h2>
+            <p>Click a section to open or close it. Each button opens or closes its section.</p>
+
+            <button type="button" id="htmlSectionBtn" class="accordion-button">HTML</button>
+            <div id="htmlContent" class="accordion-content">
+                <p>HTML creates the structure of a web page.</p>
+                <p>Examples: headings, paragraphs, images, and buttons.</p>
+            </div>
+
+            <button type="button" id="cssSectionBtn" class="accordion-button">CSS</button>
+            <div id="cssContent" class="accordion-content">
+                <p>CSS controls how a web page looks.</p>
+                <p>Examples: colors, fonts, borders, and spacing.</p>
+            </div>
+
+            <button type="button" id="jquerySectionBtn" class="accordion-button">jQuery</button>
+            <div id="jqueryContent" class="accordion-content">
+                <p>jQuery is a JavaScript library.</p>
+                <p>In this project, it handles button clicks and slide animations.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Student: Batyrbek Isabek | Group: SE-2524</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

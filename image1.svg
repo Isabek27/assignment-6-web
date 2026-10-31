@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
+  <rect width="300" height="180" fill="#dce8f4"/>
+  <rect x="112" y="30" width="76" height="85" rx="4" fill="#416b91"/>
+  <path d="M125 30 V115 M140 52 H174 M140 67 H174 M140 82 H164" stroke="white" stroke-width="4"/>
+  <text x="150" y="152" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#243c52">Study time</text>
+</svg>

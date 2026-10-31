@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180">
+  <rect width="300" height="180" fill="#e4eddb"/>
+  <path d="M178 58 H191 A18 18 0 0 1 191 94 H178" fill="none" stroke="#588040" stroke-width="7"/>
+  <path d="M112 52 H180 V96 Q180 116 160 116 H132 Q112 116 112 96 Z" fill="#588040"/>
+  <path d="M130 39 V23 M147 39 V17 M164 39 V23" stroke="#588040" stroke-width="4"/>
+  <text x="150" y="152" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#364d28">Break time</text>
+</svg>
