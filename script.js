@@ -34,7 +34,7 @@ $(document).ready(function() {
     });
 
     $("#imageBtn").click(function() {
-        $("#changeImage").attr("src", "images/image2.svg");
+        $("#changeImage").attr("src", "image2.svg");
     });
     $("#linkBtn").click(function() {
         $("#pageLink").attr("href", "effects.html");
